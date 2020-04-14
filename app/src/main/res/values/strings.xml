@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NotificationManager</string>
+    <string name="notificationText">通知测试</string>
+    <string name="basicNotificationButton">基础通知测试</string>
+    <string name="basicNotificationButtonWithDetail">基础通知测试(配置通知详细展示页面)</string>
+    <string name="juniorNotificationButton">中级通知测试</string>
+    <string name="higherNotificationButton">高级通知测试</string>
+    <string name="notificationPriorityText">通知优先级测试</string>
+    <string name="minNotificationPriorityButton">min</string>
+    <string name="lowNotificationPriorityButton">low</string>
+    <string name="defaultNotificationPriorityButton">default</string>
+    <string name="highNotificationPriorityButton">high</string>
+    <string name="maxNotificationPriorityButton">max</string>
+    <string name="clearAllNotification">清除所有通知</string>
+    <string name="content_basic_notification_info_page">你今天的学习任务还没有完成，抓紧时间哟!</string>
+    <string name="content_junior_notification_info_page">你好呀，今天的任务还有一点点就完成了，加油哟！</string>
+    <string name="content_higher_notification_info_page">恭喜恭喜，你今天的任务已经圆满完成了，可以去休息一会了。</string>
+    <string name="title_basic_notification_info_page">BasicNotificationInfoPage</string>
+    <string name="title_junior_notification_info_page">JuniorNotificationInfoPage</string>
+    <string name="title_higher_notification_info_page">HigherNotificationInfoPage</string>
+</resources>

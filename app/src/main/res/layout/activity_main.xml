@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notificationText"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/base_notification_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="setBasicNotification"
+            android:text="@string/basicNotificationButton" />
+
+        <Button
+            android:id="@+id/base_notification_button_with_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/basicNotificationButtonWithDetail" />
+
+        <Button
+            android:id="@+id/junior_notification_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/juniorNotificationButton" />
+
+        <Button
+            android:id="@+id/higher_notification_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/higherNotificationButton" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notificationPriorityText"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/min_notification_priority_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/minNotificationPriorityButton" />
+
+            <Button
+                android:id="@+id/low_notification_priority_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/lowNotificationPriorityButton" />
+
+            <Button
+                android:id="@+id/default_notification_priority_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/defaultNotificationPriorityButton" />
+
+            <Button
+                android:id="@+id/high_notification_priority_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/highNotificationPriorityButton" />
+
+            <Button
+                android:id="@+id/max_notification_priority_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/maxNotificationPriorityButton" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/clear_all_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clearAllNotification"/>
+
+</LinearLayout>
